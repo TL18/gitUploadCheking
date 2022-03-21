@@ -140,7 +140,7 @@ public class BaseClass  {
 				Runtime.getRuntime().exec("cmd.exe /c start " + "taskkill /f /im geckodriver.exe");
 				logger.info("All FirefoxDriver Process is closed.");
 			} else if (prop.getProperty("browser").equalsIgnoreCase("chrome")) {
-				Runtime.getRuntime().exec("cmd.exe /c start " + "taskkill /f /im chrome.exe");
+				Runtime.getRuntime().exec("cmd.exe /c start " + "taskkill /f /im chromedriver.exe");
 				logger.info("All ChromeDriver Process is closed.");
 			}
 			/*
@@ -150,7 +150,7 @@ public class BaseClass  {
 			 * logger.info("All IEServer Process is closed."); }
 			 */
 			else if (prop.getProperty("browser").equalsIgnoreCase("edge")) {
-				Runtime.getRuntime().exec("cmd.exe /c start " + "taskkill /f /im msedge.exe");
+				Runtime.getRuntime().exec("cmd.exe /c start " + "taskkill /f /im msedgedriver.exe");
 				logger.info("All EdgeDriver Process is closed.");
 			}
 
