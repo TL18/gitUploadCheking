@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8220" started-at="2022-03-16T05:37:22Z" finished-at="2022-03-16T05:37:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8220" started-at="2022-03-16T05:37:22Z" finished-at="2022-03-16T05:37:31Z">
+      <class name="pageObjectTest.LoginPageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:pageObjectTest.LoginPageTest@687e99d8]" name="initialize" is-config="true" duration-ms="7463" started-at="2022-03-16T05:37:22Z" finished-at="2022-03-16T05:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:pageObjectTest.LoginPageTest@687e99d8]" name="loginPage" duration-ms="736" started-at="2022-03-16T05:37:30Z" finished-at="2022-03-16T05:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+      </class> <!-- pageObjectTest.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
