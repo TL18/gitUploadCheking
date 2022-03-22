@@ -46,7 +46,7 @@ public class LoginPageTest extends BaseClass {
 		logger.info("Password is entered.");
 		
 		logger.info("Clicking on Login...");
-		lp.clickOnLogin().click();;
+		lp.clickOnLogin().click();
 		logger.info("Clicked on Login Button.");
 		
 	}
